@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Razi Hafitz</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">RaziHafitz</div>
+        <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <img src="Kei Tendou.jpeg" alt="Razi Hafitz" class="profile-img">
+            <h1>Razi Hafitz</h1>
+            <p class="tagline">Full Stack Developer Junior | UI/UX Designer</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="reveal">About Me</h2>
+        <div class="about-content reveal">
+            <p>Hello There! My name is Razi Hafitz. I am a full stack developer junior, 17 years old. My hobbies are playing games and coding. I love building things for the web and constantly learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="reveal">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <h3>Front End</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <h3>UI/UX Design</h3>
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Sketch</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <h3>Back End</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>phpMyAdmin</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Postman</li>
+                    <li>Netlify</li>
+                    <li>Vercel</li>
+                    <li>9router</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="reveal">Contact</h2>
+        <div class="contact-content reveal">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Razi Hafitz Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
